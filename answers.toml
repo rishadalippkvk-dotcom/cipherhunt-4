@@ -16,13 +16,14 @@ level_3_answer = "Power House"
 level_3_security_key = "Linus Torvalds"
 
 # Level 4
-level_4_answer = "College Name Board"
+level_4_answer = "Name Board"
 level_4_security_key = "TCP/IP"
 
 # Level 5
-level_5_answer = "Coordinator"
+level_5_answer = "Coordinates"
 level_5_security_key = "DBMS"
 
 # Level 6
 level_6_answer = "Canteen"
+
 level_6_security_key = "console.log()"
