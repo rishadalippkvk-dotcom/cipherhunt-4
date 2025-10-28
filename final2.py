@@ -919,7 +919,7 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_1_answer"],
         "security_riddle": "I have a mouth but I don't have tongue",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Hint:starts with d and ends with e",
+        "hint": "💡 Hint:starts with 'd' and ends with 's'",
         "security_hint": "No hints are available",
         "category": "Campus Riddle",
         "difficulty": "easy",
@@ -3545,3 +3545,4 @@ st.markdown("""
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
 """, unsafe_allow_html=True)
+
