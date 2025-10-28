@@ -21,35 +21,71 @@ answers = answers_data["questions"]
 
 QUESTIONS: List[Dict] = [
     {
-        "question": "What is the capital of France?",
-        "options": ["Berlin", "Madrid", "Paris", "Rome"],
-        "answer": "Paris",
+        "question": "An area with stacked family. (10 letters)",
+        "answer": answers["level_1_answer"],
+        "security_riddle": "I have a mouth but I don't have tongue",
+        "security_key": answers["level_1_security_key"],
+        "hint": "💡 Hint:starts with 'd' and ends with 's'",
+        "security_hint": "No hints are available",
+        "category": "Campus Riddle",
+        "difficulty": "easy",
+        "points": 10
     },
     {
-        "question": "What is 2 + 2?",
-        "options": ["3", "4", "5", "6"],
-        "answer": "4",
+        "question": "I sit between trees and I'm looking forward to my campus .(2 words)",
+        "answer": answers["level_2_answer"],
+        "security_riddle": "I have a talent, but I don't use it",
+        "security_key": answers["level_2_security_key"],
+        "hint": "💡 Hint:The first word starts with s",
+        "security_hint": "No hints are available",
+        "category": "Campus Riddle",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the largest planet in our solar system?",
-        "options": ["Earth", "Jupiter", "Mars", "Venus"],
-        "answer": "Jupiter",
+        "question": "I roar when silence falls .(2 words)",
+        "answer": answers["level_3_answer"],
+        "security_riddle": "The action never lies.(🛑 Be carefull 🛑)",
+        "security_key": answers["level_3_security_key"],
+        "hint": "💡 First word starts with 'p'",
+        "security_hint": "No hint is available",
+        "category": "Campus Riddle",
+        "difficulty": "hard",
+        "points": 20
     },
     {
-        "question": "What is the chemical symbol for water?",
-        "options": ["H2O", "CO2", "O2", "N2"],
-        "answer": "H2O",
+        "question": "An area that can’t speak but it can convey the face of us .(2 words)",
+        "answer": answers["level_4_answer"],
+        "security_riddle": "The secret lies where I don’t display",
+        "security_key": answers["level_4_security_key"],
+        "hint": "💡 Hint:The first word starts with 'n' and the second is 'b' ",
+        "security_hint": "Reverse",
+        "category": "Campus Riddle",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the smallest country in the world?",
-        "options": ["Monaco", "Vatican City", "Liechtenstein", "San Marino"],
-        "answer": "Vatican City",
+        "question": "I'm XI.I IX IV IV 0 I II , LXXVI.II VII VII IX IX VII VII.(11 letters)",
+        "answer": answers["level_5_answer"],
+        "security_riddle": "I wear rings",
+        "security_key": answers["level_5_security_key"],
+        "hint": "💡 Hint: 2 oo",
+        "security_hint": "💡 Reverse gid",
+        "category": "Campus Riddle",
+        "difficulty": "medium",
+        "points": 15
     },
     {
-        "question": "What is the tallest mountain in the world?",
-        "options": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
-        "answer": "Everest",
-    },
+        "question": "A place where time behaves in strange .(7 letters)",
+        "answer": answers["level_6_answer"],
+        "security_riddle": "Between one spin and one swing",
+        "security_key": answers["level_6_security_key"],
+        "hint": "No hints are available",
+        "security_hint": "No hints are available",
+        "category": "Campus Riddle",
+        "difficulty": "hard",
+        "points": 20
+    }
 ]
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -3545,6 +3581,7 @@ st.markdown("""
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
