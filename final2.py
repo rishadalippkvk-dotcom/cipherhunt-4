@@ -964,7 +964,7 @@ QUESTIONS: List[Dict] = [
         "security_riddle": "I wear rings",
         "security_key": answers["level_5_security_key"],
         "hint": "💡 Hint: 2 oo",
-        "security_hint": "No hints are available",
+        "security_hint": "💡 Reverse gid",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -3545,5 +3545,6 @@ st.markdown("""
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
