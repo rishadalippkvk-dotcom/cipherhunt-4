@@ -941,7 +941,7 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "The action never lies.(🛑 Be carefull 🛑)",
         "security_key": answers["level_3_security_key"],
-        "hint": "No hints are available",
+        "hint": "💡 First word starts with 'p'",
         "security_hint": "No hint is available",
         "category": "Campus Riddle",
         "difficulty": "hard",
@@ -3545,4 +3545,5 @@ st.markdown("""
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
 """, unsafe_allow_html=True)
+
 
